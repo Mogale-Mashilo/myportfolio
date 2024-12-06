@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My portfplio</title>
+<!-------------------------CSS Section------------------------------------>
+<style type="text/css">
+*{
+padding: 0;
+maargin:0;
+font-family:'Josefin Sans', sans-serif;
+box-sizing:border-box;
+	
+}
+.profile{
+	height: 100vh;
+	width:100%;
+	background-image: url("pic1.png");
+	background-size: cover;
+	background-position:center;   
+}
+
+nav{
+	display:flex;  
+	align-items:center;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-left:8%;
+	padding-right:8%;
+}
+.logo{
+	color:white;
+	font-size:35px;
+	letter-spacing:1px;
+	cursor:pointer;
+}
+span{
+	color:deeppink;
+}
+nav ul li{
+	list-style-type:none;
+	display:inline-block;
+	padding: 10px 25px;
+}
+nav ul li a{
+	color:white;
+	text-decoration:none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+nav ul li a:hover{
+	color:deeppink;
+	transition: .4s;
+}
+.content{
+	position: absolute;
+	top:50%;
+	left:8%;
+	trasform: translateY(-50%);
+}
+h1{
+	color:white;
+	margin: 20px 0px 20px;
+	font-size: 75px;
+}
+h3{
+	color:white;
+	margin-bottom:50px;
+    font-size:25px;
+}
+
+h2{
+	color:white;
+	margin-bottom:50px;
+    font-size:25px;
+	}
+h5{
+	color:pink;
+	font-style:italic;
+	letter-spacing:2px;
+	margin-bottom:50px;
+    font-size:22px;
+	}
+h4{
+	color:pink;
+	letter-spacing:2px;
+	font-size: 20px;
+}
+
+.about{
+	width:100%;
+	padding:100px 0px;
+	background-color: black;
+}
+.about img{
+	height:auto;
+	width:430px;
+	
+}
+.about-text{
+	width:550px;
+}
+.main{
+	width:1130px;
+	max-width:95%;
+	margin:0 auto;
+	display: flex;
+	align-items:center;
+	justify-content: space-around;
+	
+}
+.about-text h2{
+	color: white;
+	font-size:75px;
+	text-transform: capitalize;
+	margin-bottom:20px;
+}
+.about-text h5{
+	color: white;
+	font-size:22px;
+	text-transform: capitalize;
+	margin-bottom:25px;
+}
+.about-text p{
+	color: white;
+	font-size:18px;
+	margin-bottom:20px;
+	letter-spacing: 1px;
+	line-height: 28px;
+}
+.skills{
+     background:Black;
+	 width:100%;
+	 padding:100px 0px;
+	 
+}
+skills h2{
+     color:white;
+	 font-size:75px;
+	 width: 1130px;
+	 margin:30px auto;
+	 text-align: center;
+}
+.box{
+    display: flex;
+	justify-content:center;
+	align-items:center;
+	min-height:400px;
+}
+.card{
+     height:300px;
+	 width : 300px;
+	 padding: 20px 35px;
+	 background:#F8E2E6;
+	 border-radius: 20px;
+	 margin:15px;
+	 position:relative;
+	 overflow:hidden;
+	 text-align: center;
+}
+.title{
+    text-align: center;
+	font-size:100px;
+}
+</style>
+<!-------------------------HTML-Section----------------------------------->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+
+
+
+</head>
+<body>
+  
+  <div class="profile">
+    <nav>
+	 <h2 class="logo">Portfo<span>lio</span></h2>
+	 <ul>
+	    <li><a href="#">Home</a></li>
+		<li><a href="#">about</a></li>
+		<li><a href="#">contact</a></li>
+		<li><a href="#">location</a></li>
+	 </ul>
+	</nav>
+
+	<div class="content">
+	  <h4> Hello, my name is</h4>
+	  <h1> Mashilo Mogale<h1>
+	  <h3> Java Student at MIE</h3>
+	
+    </div> 
+  </div>
+ <!------------------------about myself------------------------------------->
+ <section class="about">
+   <div class="main">
+    <img src="pic2.png">
+	<div classa="about-text">
+	 <h2>About <span>myself</span><h2>
+	 <p><h5>I am enthusiastic about the opportunity to 
+	 apply my skills and knowledge in practical settings, 
+	 with the aim of making meaningful contributions 
+	 to a progressive company. My dedication to 
+	 excellence and passion for fostering collaborative 
+	 work environments drive my desire to join forward-thinking 
+	 teams. </h5></p>
+	
+    </div>
+ 
+  </div>
+ </section>
+ <!-------------------------skills------------------------------------>
+ <div class="skills">
+   <div class="title">
+     <h2><span>Skills</span></h2>
+     	 
+   </div>	
+     
+	 <div class="box">
+	 
+        <div class="card">
+	      <h4>skills</h4>
+		<div>
+		<p>SQL, Power Pivot, Power Query, Advanced Excel, Database 
+		(Oracle SQL Server), Agile and Scrum, Microsoft
+		Operating System Linux & Windows, SDLC, HTML, CSS</p>
+		<p style="text-align: center;">
+		</p>
+		</div>
+	  
+	  </div>
+	  
+	  <div class="card">
+	      <h4>competencies</h4>
+		<div>
+		<p>Keen to learn, and to share knowledge and experiences.Team player ,
+		Proactive,Good interpersonal skills,Good Communication skills
+		Attention to detail.Solution Driven;Self-Motivated</p>
+		<p style="text-align: center;">
+		</p>
+		</div>
+	  
+	  </div>
+	  
+	  <div class="card">
+	      <h4>Educational</h4>
+		<div>
+		<p>National Diploma Information Technology - Software Development at
+		Tshwane University of Technology, Soshanguve)</p>
+		<p style="text-align: center;">
+		</p>
+		</div>
+	  
+	  </div>
+   </div>
+ </div> 
+</body>
+</html>

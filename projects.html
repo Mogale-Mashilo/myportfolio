@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+  
+    <!-------------------------HTML-Section----------------------------------->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  </head>
+  <body>
+<!-------------------------projects------------------------------------>
+<div class="skills">
+  <nav class="desk-nav">
+    <h2 class="logo">Portfolio</h2>
+    <ul>
+       <li><a href="index.html">Home</a></li>
+     <li><a href="about.html">about</a></li>
+     <li><a href="projects.html">Projects</a></li>
+     <li><a href="contact.html">contact</a></li>
+   
+    </ul>
+   </nav>
+   <!-- Mobile devicees ---------- -->
+   <nav class="mobile-nav">
+    <h2 class="logo">Portfolio</h2>
+    <div class="toggle-menu">
+     <div class="toggle-icon icon" onclick="toggleMenu()">
+       <box-icon style=" font-size: 20px" name='menu-alt-left' color='#fff' ></box-icon>
+     </div>
+     <ul class="menu-links">
+       <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+       <li><a href="about.html" onclick="toggleMenu()">about</a></li>
+       <li><a href="projects.html" onclick="toggleMenu()">Projects</a></li>
+       <li><a href="contact.html" onclick="toggleMenu()">contact</a></li>
+     
+      </ul>
+    </div>
+   
+   </nav>
+    <div class="title">
+       
+      <h2><span>Projects</span></h2>
+           
+    </div>	
+   
+      
+      <div class="box">
+      
+         <div class="card">
+            
+           <h4>CatPhotoApp</h4><br>
+         <div>
+          <img src="cat.jpeg" alt="cat" style="width:80%">
+         <p style="text-align: center;" class="btn-container">
+           
+            <a href="https://mogale-mashilo.github.io/catphotoapp/" target="_blank" class="btn">live demo</a>
+         </p>
+         </div>
+       
+       </div>
+       
+       <div class="card">
+           <h4>CoffeeShop</h4><br>
+         <div>
+          <img src="coff.webp" alt="cat"  style="width:105%">
+         <p style="text-align: center;" class="btn-container">
+            <a href="https://mogale-mashilo.github.io/CoffeShop/" target="_blank" class="btn">live demo</a>
+         </p>
+         </div>
+       
+       </div>
+       
+       <div class="card">
+           <h4>Tribute</h4><br>
+         <div>
+          <img src="mandela.jpg" alt="cat" style="width:84%">
+         <p style="text-align: center;" class="btn-container">
+            <a href="https://mogale-mashilo.github.io/Tribute/" target="_blank" class="btn">live demo</a>
+         </p>
+         </div>
+       
+       </div>
+ 
+    </div>
+    
+    <!-- Footer Section -->
+  <footer>
+    <div class="footer">
+      <p>&copy; 2024 Mashilo Mogale. All Rights Reserved.</p>
+      <button style=" font-size: 20px"><box-icon type='logo' name='github' animation='burst-hover'></box-icon></button>
+	    <button style=" font-size: 20px"><box-icon type='logo' name='linkedin' animation='burst-hover'></box-icon></button>
+	    <button style=" font-size: 20px"><box-icon name='envelope' type='solid' color='#090808' animation='burst-hover'></box-icon></button>
+    </div>
+  </footer>
+ 
+  </div> 
+  <script src="scripts.js"></script>
+</body>
+ </html>
